@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+::root{
+  --primary: 6, 214, 160;
+  --secondary: 250, 100, 61;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"]{
+  font-size: 15px;
+  color: #626264;
+  background: #f6f5f5;
+  border: 0.5 solid #dcdcdc;
+  outline: none;
+}
+
+input[type="text"]:disabled,
+input[type="date"]:disabled,
+input[type="email"]:disabled{
+  font-size: 15px;
+  background: #f6f5f5;
+  border: 0.5 solid #dcdcdc;
+  outline: none;
+  color: #626264;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Open Sans';
+  letter-spacing: -0.03em;
+}
+
+.bg-primary{
+  background-color: rgba(6, 214, 160) !important;
+  overflow-y: initial;
+}
+
+.btn{
+  font-size: 15px;
+}
+
+.badge.badge-primary{
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #dcdcdc;
+  color: #454545; 
+}
+
+.badge.badge-secondary{  
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(6, 214, 160, 0.1);
+  color: rgba(6, 214, 160);
+}
+
+.box{
+  background: white;
+  box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.btn-secondary,
+.btn-secondary:disabled,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus{
+  background-color: #fa643d;
+  border-color: #fa643d;
+}
+
+.btn-primary,
+.btn-primary:disabled,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus{
+  background-color: #06D6A0;
+  border-color: #06D6A0;
+}
+
